@@ -16,6 +16,6 @@ function a() { \
  output\
  undefined\
  a function \
- so what happens behind the scenes
- # Hoisting as a core concept relies on the way how Execution Context is created.
+ # so what happens behind the scenes
+ Hoisting as a core concept relies on the way how Execution Context is created.
  
