@@ -5,10 +5,14 @@ Here is the example\
 // Hoisting in the case of function and var declaration\
 accessing variable before initializing\
 console.log(b); 
-
 calling function even  before declaring it\
 a(); \
 var b = 10; \
 function a() { \
     console.log("a funcion");\
 }
+ \
+ output\
+ undefined\
+ a function
+ 
