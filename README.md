@@ -17,5 +17,5 @@ function a() { \
  undefined\
  a function \
  so what happens behind the scenes
- # Hoisting relies on the way how JS execution context is executed
+ # Hoisting as a core concept relies on the way how Execution Context is created.
  
