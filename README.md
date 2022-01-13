@@ -1,10 +1,11 @@
 # Hoisting-and-Errors-in-JavaScript
-what is Hoisting in JavaScript?\
+# what is Hoisting in JavaScript?
 Hoisting in JavaScript is a phenomena by which we can access functions and variables even before initilization.\
+
+# Hoisting in the case of function and var declaration
 Here is the example\
-// Hoisting in the case of function and var declaration\
-accessing variable before initializing\
-console.log(b); 
+//accessing variable before initializing\
+console.log(b); \
 calling function even  before declaring it\
 a(); \
 var b = 10; \
@@ -14,5 +15,7 @@ function a() { \
  \
  output\
  undefined\
- a function
+ a function \
+ so what happens behind the scenes
+ # Hoisting relies on the way how JS execution context is executed
  
