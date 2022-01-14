@@ -43,7 +43,7 @@ yes, they are hoisted too.\
 \
 if we declare variable with var declaration we get undefined and with let declaration we are getting an error but this error message says something Cannot access 'c' before initialization.\
 so why this happened?\
-in the case of let and const we get reference error if we try to access them before initialization but message says that memory is assigned but can not access it before intilization.\
+in the case of let and const we get reference error if we try to access them before initialization but message says that memory is assigned but can not access it before intilization means JS engine knows about the variable but it is not allowing to use it before intilization.\
 if memory is not initilized then we should get error with message **ReferenceError: c is not defined**\
 because what js interpretrs does it splits the variables and functions declaration into 2 parts\
 1- it assigns the memory to the global variables and functions even before single line of code is execute\
