@@ -33,8 +33,19 @@ In **Code Execution phase** value is assigned to variables and functions. As JS 
 
 # Hoisting in the case of let and const declaration
 when we try to access variables declaration with let and const even before initialization it gives errors.\
+// let declaration and const declaration \
+console.log(c);\
+let c = 10;
 
-So are let and const declration are Hoisted?
+output: **ReferenceError: Cannot access 'c' before initialization** \
+So are let and const declration are Hoisted? \
+if we declare variable with var declaration we get undefined and with let declaration we are getting an error but this error message says something Cannot access 'c' before initialization.\
+so why this happened?\
+in the case of let and const we get reference error if we try to access them before initialization but message says that memory is assigned but can not access it before intilization.\
+if memory is not initilized then we should get error with message **ReferenceError: c is not defined**\
+because what js interpretrs does it splits the variables and functions declaration into 2 parts\
+1- it assigns the memory to the global variables and functions even before single line of code is execute\
+2- it executes the code and assigned the values to variables and functions.
 
 
  
