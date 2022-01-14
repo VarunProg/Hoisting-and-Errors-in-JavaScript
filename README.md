@@ -19,6 +19,7 @@ function a() { \
  # so what happens behind the scenes
  Hoisting as a core concept relies on the way how Execution Context is created.\
  So first let's understand what is execution context and how it's created to understand better hoisting concept.\
+ There are 2 types of execution context global and local, global is created when JS program is run and Local exeution context is created when function is invoked(call).\
  first Javascript engine loads the JS file and parses the code then it enters into Global Execution Context that is the default execution context where JavaScript engine enters first.\
  Whenever JS program is run a global object is created, global execution context is created along with that execution context and this keyword is created. Global obejct is created even before JS engine enters to the GEC(Global Execution Context) and what Global object contains it contains eventHandlers, history,ScrollX,Window object(in the case of browser), localStorage and more..
  
