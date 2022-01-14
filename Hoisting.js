@@ -9,4 +9,6 @@ function a() {
 console.log(c);
 let c = 10;
 
+console.log(d);
+const d 1;
 
