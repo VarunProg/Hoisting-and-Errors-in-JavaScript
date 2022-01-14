@@ -1,6 +1,6 @@
 # Hoisting-and-Errors-in-JavaScript
 # what is Hoisting in JavaScript?
-Hoisting in JavaScript is a phenomena by which we can access functions and variables even before initilization.\
+Hoisting in JavaScript is a phenomena by which we can access functions and variables even before initilization.
 
 # Hoisting in the case of function and var declaration
 Here is the example\
