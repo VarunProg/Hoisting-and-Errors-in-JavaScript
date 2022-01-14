@@ -5,3 +5,8 @@ var b = 10;
 function a() {
     console.log("a funcion");
 }
+// let declaration and const declaration
+console.log(c);
+let c = 10;
+
+
