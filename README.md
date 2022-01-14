@@ -39,6 +39,8 @@ let c = 10;
 
 output: **ReferenceError: Cannot access 'c' before initialization** \
 So are let and const declration are Hoisted? \
+yes, they are hoisted too.\
+\
 if we declare variable with var declaration we get undefined and with let declaration we are getting an error but this error message says something Cannot access 'c' before initialization.\
 so why this happened?\
 in the case of let and const we get reference error if we try to access them before initialization but message says that memory is assigned but can not access it before intilization.\
