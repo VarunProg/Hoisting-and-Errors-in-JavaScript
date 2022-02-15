@@ -80,7 +80,13 @@ this is the simple example example of function statement and function declaratio
  };\
  
  # so what's the difference between function expression and function declaration
- in the case of function declaration we can access function even before initilizing it but in function expression if we try to access function before intilizing it we get type error.
+ in the case of function declaration we can access function even before initilizing it but in function expression if we try to access function before intilizing it we get type error.\
+ **example of function declaration**\
+ a();
+function a() {\
+console.log("a funcion");\
+}\
+output: here we are able to access function a before initilizing it because during memory creation phase memory is assigned to the function a the whole copy of it.
  
 **example of function expression**\
  c();\
