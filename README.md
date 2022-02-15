@@ -52,7 +52,7 @@ because what js interpretrs does it splits the variables and functions declarati
 
 # functional Hoisting
 function declarations are hoisted too, function hoisting allows us to call before it is declared or defined.
- **in the case of function declaration we can acces function even before initilizing it.**
+ **in the case of function declaration we can acces function even before initilizing it.**\
 //accessing variable before initializing\
 console.log(b);\
 //calling function even before declaring it\
