@@ -50,6 +50,48 @@ because what js interpretrs does it splits the variables and functions declarati
 1- it assigns the memory to the global variables and functions even before single line of code is execute\
 2- it executes the code and assigned the values to variables and functions.
 
+# functional Hoisting
+function declarations are hoisted too, function hoisting allows us to call before it is declared or defined.
+ **in the case of function declaration we can acces function even before initilizing it.**
+//accessing variable before initializing
+console.log(b);
+//calling function even before declaring it\
+a();\
+console.log(b);\
+var b = 10;\
+function a() {\
+console.log("a funcion");
+}\
+output:\
+a function, undefined
+# what is the difference between function expression and function declaration?
+the only difference between two is hoisting.
 
+first let's understand what is Function declaration and function statement and function expression.\
+**Function declaration and function statement**
+a();
+function a() {\
+console.log("a funcion");\
+}\
+this is the simple example example of function statement and function declaration\
+**function expression**
+ var c = function () {\
+ console.log("function called");\
+ };\
+ 
+ # so what's the difference between function expression and function declaration
+ in the case of function declaration we can access function even before initilizing it but in function expression if we try to access function before intilizing it we get type error.
+ 
+**example of function expression**
+ c();\
+ var c = function () {\
+ console.log("function called");\
+ };\
+ output:\
+ TypeError: c is not a function\
+ \
+ why this happened, just because of hositing.\
+ in case of function  expression  during memory creation phase memory is assigned to the variable c is undefined and in code execution phase this whole copy of function 
+ is assigned to the variable c untill then it is undefined so here the value of variable c is unfined and we can not call it.
  
  
