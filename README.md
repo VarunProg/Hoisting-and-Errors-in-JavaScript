@@ -82,7 +82,7 @@ this is the simple example example of function statement and function declaratio
  # so what's the difference between function expression and function declaration
  in the case of function declaration we can access function even before initilizing it but in function expression if we try to access function before intilizing it we get type error.
  
-**example of function expression**
+**example of function expression**\
  c();\
  var c = function () {\
  console.log("function called");\
